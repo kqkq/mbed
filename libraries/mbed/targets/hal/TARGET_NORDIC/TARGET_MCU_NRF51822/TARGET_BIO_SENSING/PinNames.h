@@ -102,10 +102,10 @@ typedef enum {
     LED3    = p23,
     LED4    = p24,
 
-    BUTTON1 = p17,
-    BUTTON2 = p18,
-    BUTTON3 = p19,
-    BUTTON4 = p20,
+    //BUTTON1 = p17,
+    //BUTTON2 = p18,
+    //BUTTON3 = p19,
+    //BUTTON4 = p20,
 
     RX_PIN_NUMBER  = p11,
     TX_PIN_NUMBER  = p9,
@@ -131,8 +131,8 @@ typedef enum {
     SPIS_PSELSS   = p12,
     SPIS_PSELSCK  = p15,
 
-    I2C_SDA0 = p30,
-    I2C_SCL0 = p7,
+    I2C_SDA0 = p23,
+    I2C_SCL0 = p22,
 
     D0  = p12,
     D1  = p13,
