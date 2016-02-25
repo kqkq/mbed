@@ -110,26 +110,26 @@ typedef enum {
     RX_PIN_NUMBER  = p11,
     TX_PIN_NUMBER  = p9,
     CTS_PIN_NUMBER = p10,
-    RTS_PIN_NUMBER = p8,
+    RTS_PIN_NUMBER = p12,
 
     // mBed interface Pins
-    USBTX = TX_PIN_NUMBER,
-    USBRX = RX_PIN_NUMBER,
+//    USBTX = TX_PIN_NUMBER,
+//    USBRX = RX_PIN_NUMBER,
 
-    SPI_PSELMOSI0 = p25,
-    SPI_PSELMISO0 = p28,
-    SPI_PSELSS0   = p24,
-    SPI_PSELSCK0  = p29,
-
-    SPI_PSELMOSI1 = p13,
-    SPI_PSELMISO1 = p14,
-    SPI_PSELSS1   = p12,
-    SPI_PSELSCK1  = p15,
-
-    SPIS_PSELMOSI = p13,
-    SPIS_PSELMISO = p14,
-    SPIS_PSELSS   = p12,
-    SPIS_PSELSCK  = p15,
+//    SPI_PSELMOSI0 = p25,
+//    SPI_PSELMISO0 = p28,
+//    SPI_PSELSS0   = p24,
+//    SPI_PSELSCK0  = p29,
+//
+//    SPI_PSELMOSI1 = p13,
+//    SPI_PSELMISO1 = p14,
+//    SPI_PSELSS1   = p12,
+//    SPI_PSELSCK1  = p15,
+//
+//    SPIS_PSELMOSI = p13,
+//    SPIS_PSELMISO = p14,
+//    SPIS_PSELSS   = p12,
+//    SPIS_PSELSCK  = p15,
 
     I2C_SDA0 = p23,
     I2C_SCL0 = p22,
